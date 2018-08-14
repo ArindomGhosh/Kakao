@@ -36,7 +36,7 @@ ext.libraries = [
 def alias = System.getenv('BINTRAY_ALIAS')
 
 if (alias == null) {
-    alias = ''
+    alias = '-androidx'
 }
 
 ext.kakao = [
